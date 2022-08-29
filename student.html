@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/student.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+	<br><br>
+	<h1>Enter Student Details</h1>
+
+	<div class="section">
+		<form name="myForm" action="php/student.php" method="post" onsubmit="return myFunction()" method="post">
+			<div class="container">
+				<label id="usn">USN</label>
+				<input type="text" name="usn" placeholder="Enter USN">
+			</div>
+			<div class="container">	
+				<label id="name">STUDENT_NAME</label>
+				<input type="text" name="name" placeholder="Enter Student Name">
+			</div>
+			<div class="container">
+				<label name="gender">GENDER</label>
+				<input type="radio" value="male" name="gender"><label for="male">Male</label>
+				<input type="radio" value="female" name="gender"><label for="female">Female</label>
+			</div>
+			<div class="container">
+				<label id="email">Email</label>
+				<input type="text" name="email" placeholder="Enter email">
+			</div>
+			<div class="container">
+				<label id="date">DOB</label>
+				<input type="date" name="date" placeholder="Enter DOB">
+			</div>
+			<div class="container">
+				<label id="branchid">BranchID</label>
+				<input type="number" name="branchid" placeholder="Enter BranchID">
+			</div>
+			<div class="container">
+				<button class="button1">Submit</button>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/student.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/exam.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+	<br><br>
+	<h1>Enter Exam Details</h1>
+
+	<div class="section">
+		<form name="myForm" action="php/exam.php" method="post" onsubmit="return myFunction()" method="post">
+			<div class="container">
+				<label id="subjectcode">SUBJECTCODE</label>
+				<input type="text" name="subjectcode" placeholder="Enter Subject Code">
+			</div>
+			<div class="container">	
+				<label id="examdate">EXAMDATE</label>
+				<input type="date" name="examdate" placeholder="Enter Exam date">
+			</div>
+			<div class="container">
+				<label id="timing">TIMING</label>
+				<input type="time" name="timing" placeholder="Enter timing">
+			</div>
+			<div class="container">
+				<button class="button1">Submit</button>
+			</div>
+		</form>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<script type="text/javascript" src="js/exam.js"></script>
+</body>
+</html>

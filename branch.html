@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/branch.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+	<br><br>
+	<h1>Enter Branch Details</h1>
+
+	<div class="section">
+		<form name="branchform" action="php/branch.php" method="post" onsubmit="return myFunction()" method="post">
+			<br><br><br>
+			<div class="container">
+				<label id="branchid">BRANCHID</label>
+				<input type="number" name="branchid" placeholder="Enter BRANCHID">
+			</div>
+			<br>
+			<div class="container">	
+				<label id="branchname">BRANCHNAME</label>
+				<input type="text" name="branchname" placeholder="Enter Branch name">
+			</div>
+			<br>
+			<div class="container">
+				<label id="semester">SEMESTER</label>
+				<input type="text" name="semester" placeholder="Enter semester">
+			</div>
+			<br>
+			<div class="container">
+				<button class="button1">Submit</button>
+			</div>
+			<br><br>
+		</form>
+	</div>
+	<br><br><br><br><br>
+	<script type="text/javascript" src="js/branch.js"></script>
+</body>
+</html>
